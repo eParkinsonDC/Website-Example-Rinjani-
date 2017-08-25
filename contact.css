@@ -1,0 +1,56 @@
+#contact {width:50%; height:50%; margin: 0 auto; background-color:#F7F7F7}
+
+html
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ 
+.container {height:auto; margin: 0 auto; padding: 20px 0; border-radius: 30px;}
+
+#contact .container form input,
+#contact .container form textarea {
+	width:55%;
+	height:40px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background: ##F7F7F7;
+	border:2px solid #F7F7F7;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+
+	color:#999;}
+
+#contact .container form textarea {
+	height:150px;}
+
+#contact .container form .submit {
+	width:55%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:rgb(104, 145, 162);
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form .submit:hover {
+	color:#FFF;
+	border:2px solid #418DDD;
+	background: #418DDD;
+	cursor:pointer;}
+
+#contact .container form .required {
+	color:#b43838;}

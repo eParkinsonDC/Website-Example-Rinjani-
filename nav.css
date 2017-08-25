@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700,300);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.site-header {
+  background-color: #1D1F20;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0px 30px 0px 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-image: url('media/logo.psd')
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+
+.site-nav .active a {
+  color: #F89406;
+  font-weight: bold;
+  background: #000;
+}
+
+.site-nav ul li:hover {
+  background: rgba(52,52,54,0.6);
+}
+
+.settings-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 35px;
+}
+
+.settings-dropdown:before {
+    content:"";
+    position: absolute;
+    right: 43px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #fff transparent;
+    z-index:9999;
+}
+
+
+.account-actions {
+  margin-left: auto;
+  display: flex;
+  margin-right: 10px;
+}
+
+.account-dropdown a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.settings-symbol {
+  font-size: 1.4em;
+  margin-right: 5px;
+}
+
+.settings-dropdown > li {
+  list-style: none;
+}
+
+.settings-dropdown li a {
+	display: block;
+	background: #F8F8F8;
+	width: 200px;
+	height: 40px;
+	padding: 0 0 0 10px;
+	font: bold 13px Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5);
+	line-height: 40px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.2 );
+}
+
+.settings-dropdown li a:hover { 
+  color: #555; 
+}
+
+
+@media (max-width: 600px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+  
+  .site-nav {
+    order: 2;
+    width: 100%;
+    background:#414143;
+  }
+}
