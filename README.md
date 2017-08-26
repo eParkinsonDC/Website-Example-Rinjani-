@@ -8,3 +8,5 @@ is in bootstrap.
 The project ended up looking very different when deployed to heroku. Different size images, bad fitting, strange font. I used composer to get the static pages
 onto heroku. There are two forms with minimal feedback (e.g. ''success you're logged in"). Theres a contact page but it turned out very ugly on heroku.
 There's pages for all the trails, a home page and a log/log-out page. I suggest looking at the raw html before going on heroku. I ddin't expect it to turn out like that at all.
+
+https://rinjani1.herokuapp.com/home.html
