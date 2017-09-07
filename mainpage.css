@@ -23,6 +23,11 @@ h1,
 
 }
 
+h3.text-center {
+  text-align: center;
+}
+
+
 h4 {
   color:black;
   text-align: center;
@@ -45,6 +50,7 @@ p {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  align-content: center;
 }
 
 .video-container iframe,  
