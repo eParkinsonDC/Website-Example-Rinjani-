@@ -9,7 +9,7 @@ html
 
 #contact .container form input,
 #contact .container form textarea {
-	width:55%;
+	width:98.5%;
 	height:40px;
 	font-size: 12px;
 	letter-spacing:1px;
@@ -31,7 +31,7 @@ html
 	height:150px;}
 
 #contact .container form .submit {
-	width:55%;
+	width:100%;
 	padding:5px 10px;
 	font-size: 12px;
 	letter-spacing:1px;
