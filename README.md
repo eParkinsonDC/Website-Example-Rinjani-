@@ -11,7 +11,7 @@
 
 <h3> <b> About </b> </h3>
 
-This is a website created for Stream 1 of Code Institute's Bootcamp course.  Live link to project: <a href="https://rinjani1.herokuapp.com/home.html"> Rinjani </a>. The project is an example of a pure front-end application. There is no back-end functionality, it is purely made from HTML+CSS and some minor javascript scripts. The projects is made with Bootstrap. 
+This is a website created for Stream 1 of Code Institute's Bootcamp course.  Live link to project: <a href="https://rinjani1.herokuapp.com/home.html"> Rinjani </a>. The project is an example of a pure front-end application. There is no back-end functionality, it is purely made from HTML+CSS with some javascript scripts. The projects is made with Bootstrap. 
 
 
 
@@ -28,7 +28,7 @@ Python 3.7.6
   </li>
   <li> HTML+CSS - Basic HTML+CSS was used to format the webpage </li>
   <li> <a href= "https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap</a> - The main framework for building the webpage HTML/CSS layout for the application </li>
-  <li> JavaScript - Javascript was used for certain functionalities of the HTML website; additional javascript scripts were included for manipulating the website header and footer functionality.  </li>  
+  <li> JavaScript - Javascript was used for certain functionalities of the HTML website; additional javascript scripts were included for manipulating the website functionalities (found in file mainpage.js).  </li>  
 </ol>  
 
  
