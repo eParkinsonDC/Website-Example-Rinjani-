@@ -47,7 +47,7 @@ There's pages for all the trails, a home page and a log/log-out page. I suggest 
 <h3> <b> Deployment </b> </h3>
 
 
-The full application was deployed and is hosted on Heroku using the gunicorn package (Python). Gunicorn will initialize the HTTP address for the application on a webserver; The Procfile file gives Heroku the information to run the app and requirements.txt is a file that contains all the Python packages that are required to run the application. </h4> 
+The full application was deployed and is hosted on Heroku using the gunicorn package (Python). Gunicorn will initialize the HTTP address for the application on a webserver. </h4> 
 
 
 
